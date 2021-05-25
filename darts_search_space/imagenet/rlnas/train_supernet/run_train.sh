@@ -1,0 +1,3 @@
+#!/bin/bash
+/usr/bin/python3.6 -m torch.distributed.launch --nproc_per_node=8 train.py --learning_rate=0.1 --epochs=50
+

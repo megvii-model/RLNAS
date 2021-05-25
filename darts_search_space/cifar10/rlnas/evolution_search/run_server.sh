@@ -1,0 +1,1 @@
+/usr/bin/python3.6 test_server.py --data=~/dataset/cifar10

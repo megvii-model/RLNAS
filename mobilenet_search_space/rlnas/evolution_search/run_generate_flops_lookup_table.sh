@@ -1,0 +1,1 @@
+/usr/bin/python3.6 generate_flops_lookup_table.py

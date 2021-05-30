@@ -19,7 +19,6 @@ import torch.distributed as dist
 
 from torch.autograd import Variable
 from model import NetworkImageNet as Network
-from ntools.megtools.classification.config import DpflowProviderMaker, DataproProviderMaker
 from tensorboardX import SummaryWriter
 from thop import profile
 import torchvision.datasets as datasets

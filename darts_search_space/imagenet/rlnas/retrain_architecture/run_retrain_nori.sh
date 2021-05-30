@@ -1,1 +1,0 @@
-rlaunch --cpu=32 --gpu=8 --memory=50000 --max-wait-time=24h --preemptible=no -- /usr/bin/python3.6 -m torch.distributed.launch --nproc_per_node=8 retrain.py --auxiliary --save='DARTS-ImageNet-dpflow-aug-train-sampler-set-epoch' --arch='DARTS' --init_channels 48 --aug=dpflow

@@ -146,7 +146,7 @@ def main():
 
     for epoch in range(start_epoch, args.epochs):
         # Supernet training
-        train(train_loader, optimizer, scheduler, model, criterion_smooth, operations, epoch, args)
+        train(train_loader, optimizer, scheduler, model, criterion_smooth, operations, epoch, train_iters, args)
 
         if args.local_rank == 0:
             # Save the current model

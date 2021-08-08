@@ -141,7 +141,7 @@ cd evolution_search
 cp ../train_supernet/models/checkpoint_epoch_50.pth.tar ./model_and_data/
 cp ../train_supernet/models/checkpoint_epoch_0.pth.tar ./model_and_data/
 bash run_server.sh
-bash run_test.sh
+bash run_search.sh
 ```
 4)architeture evaluation
 ```shell
